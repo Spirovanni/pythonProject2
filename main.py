@@ -20,6 +20,8 @@ list_1.append('roger')
 list_2.insert(2, 'terri')
 h = list_2[2]
 h = h.title()
+# list_2.remove('larry') will remove larry from list_2
+list_2.remove('larry')
 # e = (len(list_1)) creates a count of List_1
 e = (len(list_1))
 f = (len(list_2))
