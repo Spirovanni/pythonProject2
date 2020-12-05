@@ -15,13 +15,17 @@ a = a.title()
 b = b.title()
 c = c.title()
 d = d.title()
+# e = (len(list_1)) creates a count of List_1
+e = (len(list_1))
+f = (len(list_2))
+g = e + f
 
 
 def print_hi(name):
     # name = name.title() will capitalize the first letters in each word
     name = name.title()
     # Use a breakpoint in the code line below to debug your script.
-    print(f'Welcome, {name}, {a} and {d}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f'Welcome, {name}, {a}, {d} and all {g} of your friends!')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
