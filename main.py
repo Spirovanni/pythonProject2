@@ -6,15 +6,14 @@ list_1 = ['Mike', 'Alan', 'John', 'Cary']
 
 list_2 = ['Barry', 'Chuck', 'Rick Ross', 'Larry']
 
-print(list_1[0])
-
 a = list_1[1]
 b = list_1[2]
 c = list_1[3]
+d = list_2[1]
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
-    print(f'Welcome, {name}!')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f'Welcome, {name}! and {d}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
