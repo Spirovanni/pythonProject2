@@ -19,6 +19,8 @@ d = d.title()
 e = (len(list_1))
 f = (len(list_2))
 g = e + f
+# list_1.append('roger') adds 'roger' to list_1
+list_1.append('roger')
 
 
 def print_hi(name):
@@ -26,6 +28,8 @@ def print_hi(name):
     name = name.title()
     # Use a breakpoint in the code line below to debug your script.
     print(f'Welcome, {name}, {a}, {d} and all {g} of your friends!')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(list_1)
+    print(list_2)
 
 
 # Press the green button in the gutter to run the script.
