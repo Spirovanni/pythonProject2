@@ -8,6 +8,10 @@ for i in range(0, 10):
     print('Hello')
 # This will print Hello 10 times
 
+for n in range(0, 10):
+    print(n)
+# This will print a count to 10 and that will be: 0,1,2,3,4,5,6,7,8,9
+
 # Press the green button in the gutter to run the script.
 
 
