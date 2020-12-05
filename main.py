@@ -8,10 +8,14 @@ print('Enter your age ')
 
 age = int(input())
 
-if age > 18:
-    print('you can enter ')
+if age < 18:
+    print('you cannot enter ')
+elif 18 < age < 60:
+    print('you can enter')
+elif age > 60:
+    print('your too old to enter!')
 else:
-    print('you cannot enter')
+    print('Please enter your age')
 
 
 # Press the green button in the gutter to run the script.
