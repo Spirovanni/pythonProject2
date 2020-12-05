@@ -4,17 +4,15 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-print('Please enter your name ?')
+print('Enter your age ')
 
-# name = input('> ') will ask the user for their name
-name = input('> ')
+age = int(input())
 
+if age > 18:
+    print('you can enter ')
+else:
+    print('you cannot enter')
 
-print('Hi ' + name)
-print('Now please enter your family name')
-
-family_name = input('> ')
-print('OK ' + family_name)
 
 # Press the green button in the gutter to run the script.
 
