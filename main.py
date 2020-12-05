@@ -11,8 +11,11 @@ for i in range(0, 10):
     print('Hello')
 
 # This will print Hello 10 times with a corresponding number but go ahead 2 every time
-for x in range(0, 10, 2):
-    # print(i) will add a number next to each 'Salam"
+string = 'Salam'
+
+for x in string:
+    # print(i) will add a letter of the string 'Salam' next to each 'Salam" as many times as there are letters in the
+    # work Salam
     print(x)
     print('Salam')
 
