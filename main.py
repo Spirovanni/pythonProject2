@@ -4,36 +4,12 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-# This will set up the list
-l = [1, 2, 3, 4, 5, 1100, 6, 7, 8, 9, 10, 11]
-a = len(l)
-# This will pull out the section from 0 to 6 in the order of the list
-b = l[0:6]
-print(b)
-
-# This will from 0 till the end
-c = l[0::]
-print(c)
-
-# This will from 0 till the end with 2 in between
-d = l[0::2]
-print(d)
-
-# To count back from 10 with a list
-e = l[10::-1]
-print(e)
-
-# This will list all names in list
-l2 = ['david', 'rick', 'bob', 'john']
-
-print(l2[::])
-
-# This will give us the last name which is 'john' but only the first letter which is 'j'
-l3 = ['david', 'rick', 'bob', 'john']
-
-print(l3[-1][0])
-
 # Press the green button in the gutter to run the script.
 
+# This will create a list with the name gathered through an input and then add that name to the list 'l'
+name = str(input('please enter your name : '))
+
+l = [name]
+print(l)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
