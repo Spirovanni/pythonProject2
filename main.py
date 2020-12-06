@@ -16,4 +16,13 @@ n = 'ali.mitch.robert.rick.john.dan.mike.andrea.renee.ass'
 name = n.split('.')
 print(name)
 
+# This will create a database
+database = [
+    ['ali', 'robert', 'ritchie', 'terri'],
+    ['smith', 'rogers', 'bangino', 'gomez'],
+    [23, 22, 21, 45]
+]
+
+print(database)
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
