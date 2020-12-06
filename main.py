@@ -1,33 +1,23 @@
 # Section 7: List, Conditional, Loop, Input
-# 14. What is Input and how to use it
+# 17. List and itrat in details
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-# This will print Hello 10 times
-for i in range(0, 10):
-    # print(i) will add a number next to each 'Hello"
-    print(i)
-    print('Hello')
+# This will set up the list
+l = [1, 2, 3, 4, 5, 1100, 6, 7, 8, 9, 10, 11]
+a = len(l)
+# This will pull out the section from 0 to 6 in the order of the list
+b = l[0:6]
+print(b)
 
-# This will print Hello 10 times with a corresponding number but go ahead 2 every time
-string = 'Salam'
+# This will from 0 till the end
+c = l[0::]
+print(c)
 
-for x in string:
-    # print(i) will add a letter of the string 'Salam' next to each 'Salam" as many times as there are letters in the
-    # work Salam
-    print(x)
-    print('Salam')
-
-# This will print a count to 10 and that will be: 0,1,2,3,4,5,6,7,8,9
-for n in range(0, 10):
-    print(n)
-
-# This will print all numbers in the list in the order I put it
-my_list = [2, 6, 21, 8, 12, 15, 18]
-
-for a in my_list:
-    print(a)
+# This will from 0 till the end with 2 in between
+d = l[0::2]
+print(d)
 
 # Press the green button in the gutter to run the script.
 
