@@ -11,5 +11,9 @@ n = 'ali mitch robert rick john dan'
 name = n.split()
 print(name)
 
+# This will use the n list created and split it up by the dot
+n = 'ali.mitch.robert.rick.john.dan.mike.andrea.renee.ass'
+name = n.split('.')
+print(name)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
