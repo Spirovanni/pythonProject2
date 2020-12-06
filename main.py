@@ -28,6 +28,11 @@ l2 = ['david', 'rick', 'bob', 'john']
 
 print(l2[::])
 
+# This will give us the last name which is 'john' but only the first letter which is 'j'
+l3 = ['david', 'rick', 'bob', 'john']
+
+print(l3[-1][0])
+
 # Press the green button in the gutter to run the script.
 
 
