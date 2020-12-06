@@ -19,6 +19,10 @@ print(c)
 d = l[0::2]
 print(d)
 
+# To count back from 10 with a list
+e = l[10::-1]
+print(e)
+
 # Press the green button in the gutter to run the script.
 
 
