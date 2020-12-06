@@ -6,10 +6,10 @@
 
 # Press the green button in the gutter to run the script.
 
-# This will create a list with the name gathered through an input and then add that name to the list 'l'
-name = str(input('please enter your name : '))
+# This will use the n list created and split it up by the space
+n = 'ali mitch robert rick john dan'
+name = n.split()
+print(name)
 
-l = [name]
-print(l)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
