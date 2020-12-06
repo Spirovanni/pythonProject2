@@ -23,6 +23,11 @@ print(d)
 e = l[10::-1]
 print(e)
 
+# This will list all names in list
+l2 = ['david', 'rick', 'bob', 'john']
+
+print(l2[::])
+
 # Press the green button in the gutter to run the script.
 
 
